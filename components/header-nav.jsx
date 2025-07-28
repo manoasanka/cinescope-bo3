@@ -8,8 +8,8 @@
 // The header is designed to be responsive and will adjust its size and layout based on the screen size.
 
 import Link from "next/link";
-import { Logo } from "./logo";
-import { ModeToggle } from "./mode-toggle";
+// import { Logo } from "./logo";
+// import { ModeToggle } from "./mode-toggle";
 
 export default function HeaderNav() {
   // return <header className="bg-gray-400 h-20">Header Section</header>;
@@ -17,7 +17,7 @@ export default function HeaderNav() {
     <header className="border-primary/20 bg-background sticky top-0 z-50 w-full border-b">
       <div className="container flex h-16 items-center">
         <Link href="/" className="flex items-center gap-2">
-          <Logo className="h-8 w-8" />
+          {/* <Logo className="h-8 w-8" /> */}
           <span className="text-primary text-xl font-bold">CineScope</span>
         </Link>
         <nav className="ml-auto flex items-center gap-4">
@@ -51,7 +51,7 @@ export default function HeaderNav() {
           >
             Login
           </Link>
-          <ModeToggle />
+          {/* <ModeToggle /> */}
         </nav>
       </div>
     </header>
